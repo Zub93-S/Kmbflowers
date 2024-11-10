@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMB Flowers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation and Search Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutus.html">About Us</a></li> 
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for flowers..." id="searchInput">
+            <button onclick="searchFlowers()">Search</button>
+        </div>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/b.jpeg" alt="Flowers Banner">
+        <h1 id="welcome-title">Welcome to KMB Flowers</h1>
+        <p>Your perfect flowers, delivered fresh.</p>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="special-offers">
+        <h2>Special Offers</h2>
+        <div class="offer">
+            <img src="images/n.jpeg" alt="Discounted Bouquet">
+            <p>Get 20% off on Wedding Bouquets!</p>
+        </div>
+        <div class="offer">
+            <img src="images/special-offer2.jpg" alt="Discounted Garlands">
+            <p>Special Offer on Garlands: Buy 1 Get 1 Free!</p>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="product-categories">
+        <div class="category">
+            <h3>Bouquets</h3>
+            <img src="images/bouquet-category.jpg" alt="Bouquets">
+            <a href="shop.html">Shop Now</a>
+        </div>
+        <div class="category">
+            <h3>Wedding Flowers</h3>
+            <img src="images/wedding-category.jpg" alt="Wedding Flowers">
+            <a href="shop.html">Shop Now</a>
+        </div>
+        <div class="category">
+            <h3>Garlands</h3>
+            <img src="images/garland-category.jpg" alt="Garlands">
+            <a href="shop.html">Shop Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Manage Your Account</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Order History</a></li>
+                    <li><a href="#">Reminder Service</a></li>
+                    <li><a href="#">ProPerks</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Proflowers</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Delivery Policy</a></li>
+                    <li><a href="#">Ethical Labor Standards</a></li>
+                    <li><a href="#">Join Our Florist Network</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Proflowers Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Shop Now</h3>
+                <ul>
+                    <li><a href="#">Flower Delivery</a></li>
+                    <li><a href="#">Send Flowers</a></li>
+                    <li><a href="#">Mixed Flower Bouquets</a></li>
+                    <li><a href="#">Same Day Flower Delivery</a></li>
+                    <li><a href="#">Roses & Rose Bouquets</a></li>
+                    <li><a href="#">Canada Delivery</a></li>
+                    <li><a href="#">International Delivery</a></li>
+                    <li><a href="#">Plant Delivery</a></li>
+                    <li><a href="#">House Plants</a></li>
+                    <li><a href="#">Flowering Plants</a></li>
+                    <li><a href="#">Bonsai & Bamboo</a></li>
+                    <li><a href="#">Succulents</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Gift Delivery</h3>
+                <ul>
+                    <li><a href="#">Gift Baskets</a></li>
+                    <li><a href="#">Chocolates</a></li>
+                    <li><a href="#">Fruit Baskets</a></li>
+                    <li><a href="#">Corporate Gifting</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Occasions</h3>
+                <ul>
+                    <li><a href="#">Shop by Occasion</a></li>
+                    <li><a href="#">Birthday Delivery</a></li>
+                    <li><a href="#">Sympathy Flowers</a></li>
+                    <li><a href="#">Sympathy Plants</a></li>
+                    <li><a href="#">Just Because</a></li>
+                    <li><a href="#">Anniversary</a></li>
+                    <li><a href="#">Congratulations</a></li>
+                    <li><a href="#">Get Well</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Holidays</h3>
+                <ul>
+                    <li><a href="#">Valentine's Day</a></li>
+                    <li><a href="#">Easter</a></li>
+                    <li><a href="#">Mother's Day</a></li>
+                    <li><a href="#">Thanksgiving</a></li>
+                    <li><a href="#">Christmas</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Freshen up your inbox</h3>
+                <p>Enter your email</p>
+                <input type="email" placeholder="Enter your email">
+                <button>Sign Up</button>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>We are here for you 24 hours a day</p>
+                <p>Track Your Order: 1.800.580.2913</p>
+                <p>ADA Help</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Youtube</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        function searchFlowers() {
+            const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+            alert("Searching for: " + searchTerm);  // Implement actual search logic here
+        }
+    </script>
+</body>
+</html>
+
+
+
